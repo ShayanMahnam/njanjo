@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.App{
+  background-color: #9ddfff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#tsparticles{
+  position: absolute;
+  z-index: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* color */
+.bg-primary {
+    background: #0F172A;
+}
+
+.bg-secondery {
+    background: #fff;
+}
+
+.bg-accent {
+    background: #7477FF;
+}
+
+.text-accent {
+    color: #9ddfff;
+} 
+
+nav li a {
+    @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+    color: #9ddfff;
+}
+
+/* hero */
+h1 {
+    font-family: 'Tilt Warp', cursive;
+    line-height: 1.5 !important;
+}
+
+.hero-text{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-nav {
+  display: block;
+  position: fixed;
+  z-index: 20;
+  top: 45px;
+  padding: 2rem 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2D3748;
+  transition: all 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Tilt Warp', cursive; */
