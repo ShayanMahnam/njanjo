@@ -65,7 +65,7 @@ const Hero = () => {
               <AiFillLinkedin size={50} />{" "}
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=07908204373"
+              href="https://api.whatsapp.com/send?phone=00447908204373"
               className="pr-4 inline-block  hover:text-black"
               target={"_blank"}
               title="Whatsapp"
