@@ -80,7 +80,7 @@ const Contact = () => {
               <AiFillLinkedin size={40} />{" "}
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=07908204373"
+              href="https://api.whatsapp.com/send?phone=447908204373"
               className="pr-4 inline-block  text-black hover:text-white"
               target={"_blank"}
               title="Whatsapp"
