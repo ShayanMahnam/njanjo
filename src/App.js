@@ -5,6 +5,10 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ParticlesBackground from './components/ParticlesBackground';
 import Books from './components/Books';
+import Zoom from "react-reveal/Zoom";
+// import Bounce from "react-reveal/Bounce";
+// import Slide from "react-reveal/Slide";
+import Reveal from "react-reveal/Reveal";
 
 import './App.css';
 
@@ -13,9 +17,13 @@ function App() {
     <div className="App">
       <ParticlesBackground id="tsparticles" />
       <Header />
-      <Hero />
-      <About />
-      <Books />
+      <Zoom>
+        <Hero />
+      </Zoom>
+      <Reveal>
+        <About />
+        <Books />
+      </Reveal>
       <Contact />
       <Footer />
     </div>

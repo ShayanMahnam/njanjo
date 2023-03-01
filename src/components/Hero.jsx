@@ -10,7 +10,7 @@ import {
 
 const Hero = () => {
   return (
-    <section className="px-5 text-white py-32">
+    <section className="px-5 text-white py-32 h-screen flex justify-center items-center">
       <div className="container mx-auto text-center">
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="uppercase text-5xl lg:text-8xl text-black">

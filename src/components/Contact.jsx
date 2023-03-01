@@ -3,10 +3,10 @@ import { AiFillPhone, AiOutlineMail, AiOutlineTwitter } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <section className="bg-primary px-5 py-32" id="contact">
+    <section className="bg-secondary px-5 py-32" id="contact">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
-        <div className="contact-info text-white">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[210px] border-white pb-2">
+        <div className="contact-info text-black">
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[210px] border-black pb-2">
             Contact Me
           </h2>
           <p>
@@ -17,21 +17,21 @@ const Contact = () => {
           <div className="flex relative z-2 py-5">
             <a
               href="tel:+447438245687"
-              className="hover:text-white pr-4 inline-block text-accent"
+              className="hover:text-white pr-4 inline-block text-black"
             >
               {" "}
               <AiFillPhone size={40} />{" "}
             </a>
             <a
               href="mailto:shayan.mahnam@gmail.com"
-              className="hover:text-white pr-4 inline-block text-accent"
+              className="hover:text-white pr-4 inline-block text-black"
             >
               {" "}
               <AiOutlineMail size={40} />{" "}
             </a>
             <a
               href="https://twitter.com/shayanmahnam"
-              className="hover:text-white pr-4 inline-block text-accent"
+              className="hover:text-white pr-4 inline-block text-black"
             >
               {" "}
               <AiOutlineTwitter size={40} />{" "}
