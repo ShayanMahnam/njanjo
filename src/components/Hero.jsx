@@ -68,7 +68,7 @@ const Hero = () => {
               href="https://api.whatsapp.com/send?phone=07908204373"
               className="pr-4 inline-block  hover:text-black"
               target={"_blank"}
-              title="Linkedin"
+              title="Whatsapp"
               rel="noopener noreferrer"
             >
               {" "}

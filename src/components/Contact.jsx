@@ -26,6 +26,7 @@ const Contact = () => {
             <a
               href="tel:+447908204373"
               className="hover:text-white pr-4 inline-block text-black"
+              title="Phone"
             >
               {" "}
               <AiFillPhone size={40} />{" "}
@@ -33,6 +34,7 @@ const Contact = () => {
             <a
               href="mailto:djomonjanjo@gmail.com"
               className="hover:text-white pr-4 inline-block text-black"
+              title="Email"
             >
               {" "}
               <AiOutlineMail size={40} />{" "}
@@ -81,7 +83,7 @@ const Contact = () => {
               href="https://api.whatsapp.com/send?phone=07908204373"
               className="pr-4 inline-block  text-black hover:text-white"
               target={"_blank"}
-              title="Linkedin"
+              title="Whatsapp"
               rel="noopener noreferrer"
             >
               {" "}

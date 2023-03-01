@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ParticlesBackground from './components/ParticlesBackground';
 import Books from './components/Books';
+import Videos from './components/Videos';
 import Zoom from "react-reveal/Zoom";
 // import Bounce from "react-reveal/Bounce";
 // import Slide from "react-reveal/Slide";
@@ -23,6 +24,9 @@ function App() {
       <Reveal>
         <About />
         <Books />
+      </Reveal>
+      <Reveal>
+        <Videos />
       </Reveal>
       <Contact />
       <Footer />

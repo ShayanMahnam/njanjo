@@ -21,8 +21,12 @@
 .bg-secondery {
     background: #fff;
 }
+
 .bg-btn {
-  background-color: #9ddfff;
+  background-color: #ff0200;
+}
+.bg-btn:hover {
+  background-color: #920c0a;
 }
 .bg-accent {
     background: #7477FF;

@@ -21,14 +21,20 @@ const Books = () => {
 
             <div className="flex py-5">
               <a
-                href="tel:+447438245687"
+                href="https://www.amazon.co.uk/dp/1803131136?ref_=cm_sw_r_apin_dp_8ACHJFESTBM0NHV6W43Q"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full"
+                title="English Taxi"
+                rel="noopener noreferrer"
+                target={"_blank"}
               >
                 Buy (EN)
               </a>
               <a
-                href="tel:+447438245687"
+                href="https://www.amazon.co.uk/dp/B0BT4WNRDD?ref_=cm_sw_r_apin_dp_D1WT9YVVVGFKP3VKPTKW"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full ml-2"
+                title="French Taxi"
+                rel="noopener noreferrer"
+                target={"_blank"}
               >
                 Buy (FR)
               </a>
