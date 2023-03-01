@@ -4,7 +4,7 @@ const Videos = () => {
   return (
     <section className="bg-primary px-5 py-32" id="videos">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
-        <div className="contact-info text-white">
+        <div className="contact-info text-white relative z-2">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[120px] border-white pb-2">
             Videos
           </h2>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="py-4 text-center bg-primary text-white">
+    <div className="py-4 text-center bg-primary text-white relative z-2">
       {" "}
       &copy; 2023 ImageNjanjo all right reserved. <br /> Design by{" "}
       <a
