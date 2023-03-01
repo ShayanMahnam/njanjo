@@ -1,7 +1,5 @@
 import React from "react";
 
-// import { AiFillPhone, AiOutlineMail, AiOutlineTwitter } from "react-icons/ai";
-
 const Videos = () => {
   return (
     <section className="bg-primary px-5 py-32" id="videos">
@@ -32,9 +30,9 @@ const Videos = () => {
           <iframe
             src="https://www.youtube.com/embed/RdnRaWidhsY"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullscreen
           ></iframe>
         </div>
       </div>
