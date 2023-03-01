@@ -26,7 +26,7 @@ const Videos = () => {
           </div>
         </div>
 
-        <div class="mt-5 md:ml-20 aspect-w-16 aspect-h-9">
+        <div className="mt-5 md:ml-20 aspect-w-16 aspect-h-9">
           <iframe
             src="https://www.youtube.com/embed/RdnRaWidhsY"
             title="YouTube video player"
