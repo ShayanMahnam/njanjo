@@ -19,7 +19,7 @@ const Books = () => {
               psychiatrist, he's now parlayed this experience into his debut.
             </p>
 
-            <div className="flex py-5">
+            <div className="flex py-5 relative z-2">
               <a
                 href="https://www.amazon.co.uk/dp/1803131136?ref_=cm_sw_r_apin_dp_8ACHJFESTBM0NHV6W43Q"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full"

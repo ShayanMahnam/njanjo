@@ -13,7 +13,7 @@ const Videos = () => {
             The story of Alan (Tubuo Evaristus Tohmuntain) who is young
             charismatic, a ruthless con-man determined to hit the big time.
           </p>
-          <div className="mt-5">
+          <div className="mt-5 relative z-2">
             <a
               href="https://www.youtube.com/watch?v=19SZPMxUnDA"
               className="bg-btn text-white font-bold py-2 px-8 rounded-full"
