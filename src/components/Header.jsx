@@ -5,6 +5,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => setToggle(!toggle);
+  const handleLinkClick = () => setToggle(false);
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
@@ -43,16 +44,24 @@ const Header = () => {
       >
         <ul className="flex justify-center items-center flex-col">
           <li className="space-y-1.5 flex">
-            <a href="/#about">About</a>
+            <a href="/#about" onClick={handleLinkClick}>
+              About
+            </a>
           </li>
           <li className="space-y-1.5 flex">
-            <a href="/#books">Books</a>
+            <a href="/#books" onClick={handleLinkClick}>
+              Books
+            </a>
           </li>
           <li className="space-y-1.5 flex">
-            <a href="/#videos">Videos</a>
+            <a href="/#videos" onClick={handleLinkClick}>
+              Videos
+            </a>
           </li>
           <li className="space-y-1.5 flex">
-            <a href="/#contact">Contact</a>
+            <a href="/#contact" onClick={handleLinkClick}>
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
