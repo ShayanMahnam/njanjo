@@ -19,7 +19,7 @@ const Hero = () => {
             ImageNjanjo
           </h1>
 
-          <p className="py-5 hero-text lg:text-3xl text-2xl text-stroke">
+          <p className="py-5 hero-text lg:text-4xl text-3xl text-stroke">
             Welcome at ImageNjanjo Studio, the home of creative art.
           </p>
 

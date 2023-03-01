@@ -25,7 +25,7 @@ const Header = () => {
             <a href="/#books">Books</a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#videos">Videos</a>
           </li>
           <li>
             <a href="/#contact">Contact</a>
@@ -49,7 +49,7 @@ const Header = () => {
             <a href="/#books">Books</a>
           </li>
           <li className="space-y-1.5 flex">
-            <a href="/#projects">Projects</a>
+            <a href="/#videos">Videos</a>
           </li>
           <li className="space-y-1.5 flex">
             <a href="/#contact">Contact</a>

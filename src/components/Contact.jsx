@@ -31,7 +31,7 @@ const Contact = () => {
               <AiFillPhone size={40} />{" "}
             </a>
             <a
-              href="mailto:shayan.mahnam@gmail.com"
+              href="mailto:djomonjanjo@gmail.com"
               className="hover:text-white pr-4 inline-block text-black"
             >
               {" "}
@@ -89,7 +89,7 @@ const Contact = () => {
             </a>
           </div>
           <p className="py-2">
-            <span className="font-bold">Email:</span> @gmail.com
+            <span className="font-bold">Email:</span> djomonjanjo@gmail.com
           </p>
           <p className="py-2">
             <span className="font-bold">Phone:</span> +447908204373

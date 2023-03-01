@@ -13,9 +13,10 @@ const Books = () => {
             <h3 className="text-3xl font-bold mb-5 w-[300px] pb-2">
               Le Taxi-Science
             </h3>
-            <p>
-              I am currently open for a fulltime Frontend Developer role. If you
-              want to discuss about that feel free to email me or call me.
+            <p className="about-text">
+              Andrew Njanjo has been a taxi driver since 1996 and has witnessed
+              life of all kinds. Becoming inadvertently a kind of 'armchair'
+              psychiatrist, he's now parlayed this experience into his debut.
             </p>
 
             <div className="flex py-5">
@@ -23,14 +24,28 @@ const Books = () => {
                 href="tel:+447438245687"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full"
               >
-                Buy
+                Buy (EN)
+              </a>
+              <a
+                href="tel:+447438245687"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded-full ml-2"
+              >
+                Buy (FR)
               </a>
             </div>
             <p className="py-2">
               <span className="font-bold">Author:</span> Andrew Njanjo
             </p>
+
+            <p className="py-2">
+              <span className="font-bold">Publisher:</span> Matador (8 Mar.
+              2022)
+            </p>
+            <p className="py-2">
+              <span className="font-bold">ISBN-10:</span> 1803131136
+            </p>
             <p className="py-2 mb-10">
-              <span className="font-bold">Genre:</span> D
+              <span className="font-bold">ISBN-13:</span> 978-1803131139
             </p>
           </div>
           <Book3D />
