@@ -21,7 +21,9 @@
 .bg-secondery {
     background: #fff;
 }
-
+.bg-btn {
+  background-color: #9ddfff;
+}
 .bg-accent {
     background: #7477FF;
 }
@@ -45,10 +47,13 @@ h1 {
 }
 
 .hero-text{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
+.about-text{
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 .mobile-nav {

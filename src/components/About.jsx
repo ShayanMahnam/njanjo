@@ -10,18 +10,18 @@ const About = () => {
             About Us
           </h2>
 
-          <p className="pb-5">
+          <p className="pb-5 about-text">
             Feelings lead to thoughts and thoughts generate imagination. We make
             literacy entertaining and use moving images to educate you from
             practical human experience.
           </p>
-          <p className="pb-5">
+          <p className="pb-5 about-text">
             We aim at turning our generated imaginations from lived experience
             into visual art. No one can tell our story like us. Henceforth, our
             creativity is born from within.
           </p>
 
-          <p>
+          <p className="about-text">
             We imagine it and create it to make you suspend your disbelief while
             highlighting you with situations that you are not privy to.
           </p>

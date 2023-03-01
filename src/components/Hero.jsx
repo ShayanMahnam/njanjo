@@ -5,8 +5,10 @@ import {
   AiOutlineTwitter,
   AiOutlineInstagram,
   AiFillLinkedin,
-
+  AiOutlineYoutube,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
+
 
 const Hero = () => {
   return (
@@ -23,25 +25,54 @@ const Hero = () => {
 
           <div className="flex justify-center py-5 relative z-2">
             <a
-              href="https://github.com/ShayanMahnam"
+              href="https://www.instagram.com/andynjanjo/"
               className="pr-4 inline-block  hover:text-black"
+              target={"_blank"}
+              title="Instagram"
+              rel="noopener noreferrer"
             >
               {" "}
-              <AiOutlineInstagram size={40} />{" "}
+              <AiOutlineInstagram size={50} />{" "}
             </a>
             <a
-              href="https://twitter.com/shayanmahnam"
+              href="https://www.youtube.com/@imagenjanjotv8994"
               className="pr-4 inline-block  hover:text-black"
+              target={"_blank"}
+              title="Youtube"
+              rel="noopener noreferrer"
             >
               {" "}
-              <AiOutlineTwitter size={40} />{" "}
+              <AiOutlineYoutube size={50} />{" "}
             </a>
             <a
-              href="https://www.linkedin.com/in/shayan-mahnam-176301188/"
+              href="https://twitter.com/andynjanjo"
               className="pr-4 inline-block  hover:text-black"
+              target={"_blank"}
+              title="Twitter"
+              rel="noopener noreferrer"
             >
               {" "}
-              <AiFillLinkedin size={40} />{" "}
+              <AiOutlineTwitter size={50} />{" "}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/andrew-njanjo-2bb06958/"
+              className="pr-4 inline-block  hover:text-black"
+              target={"_blank"}
+              title="Linkedin"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <AiFillLinkedin size={50} />{" "}
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=07908204373"
+              className="pr-4 inline-block  hover:text-black"
+              target={"_blank"}
+              title="Linkedin"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <AiOutlineWhatsApp size={50} />{" "}
             </a>
           </div>
         </div>
