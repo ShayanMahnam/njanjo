@@ -46,7 +46,10 @@ h1 {
 
 .hero-text{
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
+
+
 
 .mobile-nav {
   display: block;
