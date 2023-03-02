@@ -18,7 +18,7 @@ const Videos = () => {
               href="https://www.youtube.com/watch?v=19SZPMxUnDA"
               className="bg-btn text-white font-bold py-2 px-8 rounded-full"
               target={"_blank"}
-              title="Instagram"
+              title="Youtube"
               rel="noopener noreferrer"
             >
               Watch Full Version

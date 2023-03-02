@@ -31,7 +31,7 @@ const About = () => {
           <img
             src={AboutImg}
             alt="coding illustration"
-            className="w-full md:w-6/12 md:ml-40 "
+            className="w-full md:w-6/12 md:ml-40 rounded-md"
           />
         </div>
       </div>
