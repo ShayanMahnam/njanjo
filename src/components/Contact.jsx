@@ -7,6 +7,7 @@ import {
   AiFillLinkedin,
   AiOutlineYoutube,
   AiOutlineWhatsApp,
+  AiOutlineFacebook,
 } from "react-icons/ai";
 
 const Contact = () => {
@@ -38,6 +39,16 @@ const Contact = () => {
             >
               {" "}
               <AiOutlineMail size={40} />{" "}
+            </a>
+            <a
+              href="https://www.facebook.com/imagenjanjo"
+              className="pr-4 inline-block text-black hover:text-white"
+              target={"_blank"}
+              title="Facebook"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <AiOutlineFacebook size={40} />{" "}
             </a>
             <a
               href="https://www.instagram.com/andynjanjo/"

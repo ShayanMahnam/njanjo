@@ -7,6 +7,7 @@ import {
   AiFillLinkedin,
   AiOutlineYoutube,
   AiOutlineWhatsApp,
+  AiFillFacebook,
 } from "react-icons/ai";
 
 
@@ -23,7 +24,17 @@ const Hero = () => {
             Welcome at ImageNjanjo Studio, the home of creative art.
           </p>
 
-          <div className="flex justify-center py-5 relative z-2">
+          <div className="flex-nowrap justify-center py-5 relative z-2">
+            <a
+              href="https://www.facebook.com/imagenjanjo"
+              className="pr-4 inline-block  hover:text-black"
+              target={"_blank"}
+              title="Facebook"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <AiFillFacebook size={50} />{" "}
+            </a>
             <a
               href="https://www.instagram.com/andynjanjo/"
               className="pr-4 inline-block  hover:text-black"
